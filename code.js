@@ -23,7 +23,7 @@
 // you won’t have to type “yes” every time you test your program.
 
 const start = prompt("Do you want to play?");
-if (start === 'yes' /* || start === 'yes' || start === 'Yes' || start === 'Y' */) {
+if (start === 'y' || start === 'yes' || start === 'Yes' || start === 'Y') {
 
     const player = prompt("What is your name?");
     let playerPoints = 40;
